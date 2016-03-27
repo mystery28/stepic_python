@@ -63,7 +63,7 @@ DATABASES = {
     }
 	'qa': {
 		'ENGINE': 'django.db.backends.mysql',
-        'NAME': os.path.join(BASE_DIR, 'qa'),
+        'NAME': 'qa',
 		'USER': 'qa_admin',
 		'PASSWORD': 'qa_admin',
 	}
